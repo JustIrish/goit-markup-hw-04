@@ -65,7 +65,7 @@ body {
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .header {
@@ -221,6 +221,16 @@ body {
   margin-left: 30px;
 }
 
+.place-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--portfolio-backgr-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .benefits-title {
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -355,6 +365,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
+  border-radius: 4px;
   color: var(--link-color);
   border: 1px solid var(--link-color);
 }
