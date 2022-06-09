@@ -455,6 +455,11 @@ body {
   background-color: var(--special-backgr-color);
 }
 
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
 .bottom-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -484,4 +489,25 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.soc-icon-footer {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.title-footer {
+  margin-bottom: 20px;
+  color: var(--second-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.soc-icon-item {
+  border-radius: 50%;
+  color: var(--second-text-color);
+  background-color: rgba(100%, 100%, 100%, 10%);
 }
