@@ -281,6 +281,10 @@ body {
 .team-card {
   flex-basis: calc(100% / 4 - 30px);
   margin: 15px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
@@ -457,7 +461,7 @@ body {
 
 .bottom {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .bottom-logo {
@@ -506,8 +510,7 @@ body {
   text-transform: uppercase;
 }
 
-.soc-icon-item {
-  border-radius: 50%;
+.social-link {
   color: var(--second-text-color);
   background-color: rgba(100%, 100%, 100%, 10%);
 }
