@@ -223,9 +223,11 @@ body {
 
 .place-icon {
   display: flex;
+  width: 100%;
+  height: 120px;
   align-items: center;
   justify-content: center;
-  height: 120px;
+
   background-color: var(--portfolio-backgr-color);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -268,6 +270,8 @@ body {
   line-height: 1.16;
   text-align: center;
 }
+
+/* ---------------------СЕКЦИЯ КОМАНДА--------------------- */
 
 .team {
   background-color: var(--portfolio-backgr-color);
@@ -414,6 +418,8 @@ body {
 .filter-btn:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-link {
@@ -452,6 +458,12 @@ body {
   line-height: 1.88;
 }
 
+.portfolio-link:hover .portfolio-content,
+.portfolio-link:focus .portfolio-content {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* -------------------ПОДВАЛ------------------- */
 
 .footer {
@@ -459,7 +471,7 @@ body {
   background-color: var(--special-backgr-color);
 }
 
-.bottom {
+.footer-content {
   display: flex;
   align-items: baseline;
 }
@@ -496,8 +508,6 @@ body {
 }
 
 .soc-icon-footer {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
 }
 
